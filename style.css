@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-block: 40px 0;
+    font-family: Italianno;
+}
+
+.box {
+    text-align: center;
+
+}
+
+.text {
+    height: 33px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #007FFF;
+}
+
+.text:focus {
+    outline: none;
+    font-family: Italianno;
+    border: 2px solid #007FFF;
+}
+
+.submit {
+    height: 33px;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+    background: #007FFF;
+    border: 0;
+}
+
+.submit:focus {
+    outline: none;
+    font-family: Italianno;
+}
+
+.minutes {
+    font-family: Italianno;
+    font-size: 12px;
+    color: #c4c4c4;
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding-block: 20px 0;
+}
+
+.tire {
+    width: 80%;
+    height: 1px;
+    background: #00000063;
+    margin: 0 auto;
+    margin-block: 30px 0;
+}
+
+.mini_box {
+    width: 270px;
+    height: 90px;
+    border-radius: 10px;
+    border: 1px solid #007FFF;
+    background: gray;
+    transition: .5s ease all;
+    margin: 0 auto;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.big {
+    padding-block: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 30px;
+    padding-inline: 150px 0;
+    transition: .5s ease !important;
+}
+
+.del {
+    width: 16px;
+    object-fit: contain;
+}
+
+.pokup {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+p {
+    font-family: Italianno;
+    font-size: 20px;
+    overflow-x: scroll;
+    width: 100px;
+    color: white;
+    text-align: start;
+}
+
+p::-webkit-scrollbar {
+    display: none;
+}
+
+.remove-anim {
+    padding: 0px !important;
+    width: 0px !important;
+
+    overflow: hidden;
+}
+
+.remove-anim .pokup {
+    opacity: 0;
+}
+
+.remove-anim .minutes {
+    opacity: 0;
+}
+
+.line {
+    text-decoration: line-through red;
+   
+}
